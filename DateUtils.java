@@ -18,7 +18,7 @@ public class DateUtils {
 
     public static String getFormatTime(String pattern,Date date){
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
-        String string = simpleDateFormat.format(date);
-        return string;
+        String format1 = simpleDateFormat.format(date);
+        return format1;
     }
 }
